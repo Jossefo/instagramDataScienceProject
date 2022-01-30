@@ -213,7 +213,7 @@ Clustering the RGB color tuples (R,G,B) to numbers between 0-9
 #     return kmeans.predict(np.array([int(RGBCurr[0]), int(RGBCurr[1]), int(RGBCurr[2])]).reshape(1,3))[0]
 
 ####################################################################################
-df = pandas.read_csv(kMeansDfFileName)
+
 
 # kmeans.cluster_centers_[idx] returns the actual cluster in the given idx
 # for idx in range(0,10):
